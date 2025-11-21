@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px 200px;
+  gap: 10px;
+  grid-template-areas:
+    "box-1 box-2 box-2 box-3"
+    "box-1 box-4 box-5 box-6"
+    "box-1 box-7 box-8 box-6";
+}
+
+.box {
+  border-radius: 4px;
+}
+.kotak-1 {
+  background-color: rgb(224, 77, 224);
+}
+.kotak-2 {
+  background-color: aqua;
+}
+.kotak-3 {
+  background-color: greenyellow;
+}

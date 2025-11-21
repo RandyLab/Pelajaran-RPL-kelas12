@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+#box1 {
+  background-color: red;
+}
+#box2 {
+  background-color: green;
+  /* display: none; */
+  /* visibility: hidden; */
+}
+#box3 {
+  background-color: blue;
+}
+
+#container {
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap-reverse;
+}
+
+.kotak {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  align-content: center;
+}
+
+.kotak:hover {
+  background-color: bisque !important;
+}
